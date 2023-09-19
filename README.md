@@ -25,4 +25,4 @@
 - SQLAlchemy (2.0.20): Toolkit SQL e Object-Relational Mapping (ORM) para Python.
 - WTForms (3.0.1): Criação de formulários web em Flask.
 
-### A aplicação estará acessível em 
+### A aplicação estará acessível em https://fakeinterest.onrender.com
