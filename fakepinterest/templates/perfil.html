@@ -1,7 +1,7 @@
 {% extends "homepage.html" %}
 
 {% block titulo %}
-Perfil - {{ usuario }}
+Perfil - {{ usuario.username }}
 {% endblock %}
 
 {% block body %}
@@ -14,7 +14,7 @@ Perfil - {{ usuario }}
 
       <form class="bloco-add-img" method="POST" enctype="multipart/form-data">
           {{ form.csrf_token }}
-        <h2>Meu perfil {{ usuario.username }}</h2>
+        <h2>{{ usuario.username }} - Enviar Foto</h2>
 
         <h2></h2>
 
